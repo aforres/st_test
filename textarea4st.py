@@ -5,10 +5,10 @@ st.title('DRAFT ONLY Resources News')
 nav=st.sidebar.radio('Navigation',['Home','Agriculture','Energy'])
 
 if nav == 'Home':
-    st.write('Home')
+    st.write('Home - but see Energy menu item')
 
 if nav == 'Agriculture':
-    st.write('Agriculture')
+    st.write('Agriculture - but see Energy item')
 
 if nav == 'Energy':
     st.write('Energy')
