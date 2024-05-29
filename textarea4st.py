@@ -42,14 +42,14 @@ if nav == 'Home':
     #st.write
     st.write('Some text')
 
-if nav == 'Agriculture':
-    st.write('Agriculture')
-    st.write('Just A Blank Page - see Energy')
+if nav == 'Other':
+    st.write('Other')
+    st.write('Just A Blank Page')
     
 
 
-if nav == 'Energy':
-    st.write('Energy')
+if nav == 'Yet Another':
+    st.write('Yet Another')
 
     st.subheader("Work Underway to Upgrade High-Voltage Power System in Northwest Ohio")
 
