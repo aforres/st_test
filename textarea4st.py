@@ -7,6 +7,7 @@ nav=st.sidebar.radio('Navigation',['Home','Other','Yet Another'])
 if nav == 'Home':
     st.write('Home')
     st.write('Just A Blank Page')
+    st.write('Well no, actually')
     
     # Header
     st.header("Main header")
