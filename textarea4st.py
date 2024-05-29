@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title('DRAFT ONLY Resources News')
+st.title('Test Template')
 #st.sidebar.title('Navigation')
-nav=st.sidebar.radio('Navigation',['Home','Agriculture','Energy'])
+nav=st.sidebar.radio('Navigation',['Home','Other','Yet Another'])
 
 if nav == 'Home':
     st.write('Home')
