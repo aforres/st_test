@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title('TP2 Test Template')
+st.title('Alastair's Test Template')
 #st.sidebar.title('Navigation')
 nav=st.sidebar.radio('Navigation',['Home','Other','Yet Another'])
 
