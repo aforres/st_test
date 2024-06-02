@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.title('Test Template')
 #st.sidebar.title('Navigation')
@@ -8,6 +9,16 @@ if nav == 'Home':
     st.write('Home')
     st.write('Just A Blank Page - well sort of blank')
     st.write('Well no, actually')
+
+
+    st.header("Line Chart")
+    
+    data = {"a":[23, 12, 78, 4, 54], "b":[0, 13 ,88, 1, 3], 
+    "c":[45, 2, 546, 67, 56]}
+    
+    df = pd.DataFrame(data)
+    df
+    st.line_chart(data=df)    
     
     # Header
     st.header("Main header")
