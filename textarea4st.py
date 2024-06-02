@@ -66,7 +66,7 @@ if nav == 'Other':
     st.button("Click me")
     #st.download_button("Download file", data)
     #st.link_button("Go to gallery", url)
-    st.page_link("app.py", label="Home")
+    #st.page_link("app.py", label="Home")
     st.data_editor("Edit data", data)
     st.checkbox("I agree")
     st.toggle("Enable")
