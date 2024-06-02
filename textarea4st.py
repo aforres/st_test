@@ -45,6 +45,7 @@ if nav == 'Home':
     st.text("Some text")
 
     # LaTeX
+    st.write("algebraic notation")
     st.latex("x = 2^2")
 
     # Divider
