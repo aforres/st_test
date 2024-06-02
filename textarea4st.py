@@ -60,7 +60,7 @@ if nav == 'Other':
 
     data = {"a":[23, 12, 78, 4, 54], "b":[0, 13 ,88, 1, 3], 
     "c":[45, 2, 546, 67, 56]}
-    st.write('Other Page')
+    st.info('Other Page')
     st.write('Just A Blank Page')
 
     st.button("Click me")
@@ -96,7 +96,7 @@ if nav == 'Other':
 
 
 if nav == 'Yet Another':
-    st.write('Yet Another Page')
+    st.info('Yet Another Page')
 
     st.subheader("Work Underway to Upgrade High-Voltage Power System in Northwest Ohio")
 
