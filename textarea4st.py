@@ -6,7 +6,7 @@ st.title("Alastair's Test Template")
 nav=st.sidebar.radio('Navigation',['Home','Other','Yet Another'])
 
 if nav == 'Home':
-    st.write('Home Page')
+    st.info('Home Page')
     st.write('Just A Blank Page - well sort of blank')
     st.write('Well no, actually')
 
