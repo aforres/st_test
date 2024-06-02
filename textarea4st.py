@@ -57,6 +57,14 @@ if nav == 'Home':
 if nav == 'Other':
     st.write('Other')
     st.write('Just A Blank Page')
+        # Sidebar section
+    with st.sidebar:
+      st.subheader('This is a Sidebar')
+      st.write('Button with Balloons 🎈')
+      if st.button('Click me!✨'):
+        st.balloons()
+      else:
+        st.write(' ')
     
 
 
