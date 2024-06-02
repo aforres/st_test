@@ -1,2 +1,2 @@
 # st_test
-early experimentation
+early experimentation and testing
