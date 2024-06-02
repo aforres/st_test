@@ -57,11 +57,14 @@ if nav == 'Home':
     st.write('Some text')
 
 if nav == 'Other':
+
+    data = {"a":[23, 12, 78, 4, 54], "b":[0, 13 ,88, 1, 3], 
+    "c":[45, 2, 546, 67, 56]}
     st.write('Other Page')
     st.write('Just A Blank Page')
 
     st.button("Click me")
-    st.download_button("Download file", data)
+    #st.download_button("Download file", data)
     st.link_button("Go to gallery", url)
     st.page_link("app.py", label="Home")
     st.data_editor("Edit data", data)
