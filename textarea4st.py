@@ -6,7 +6,7 @@ st.title("Alastair's Test Template")
 nav=st.sidebar.radio('Navigation',['Home','Other','Yet Another'])
 
 if nav == 'Home':
-    st.write('Home')
+    st.write('Home Page')
     st.write('Just A Blank Page - well sort of blank')
     st.write('Well no, actually')
 
@@ -57,7 +57,7 @@ if nav == 'Home':
     st.write('Some text')
 
 if nav == 'Other':
-    st.write('Other')
+    st.write('Other Page')
     st.write('Just A Blank Page')
         # Sidebar section
     with st.sidebar:
@@ -71,7 +71,7 @@ if nav == 'Other':
 
 
 if nav == 'Yet Another':
-    st.write('Yet Another')
+    st.write('Yet Another Page')
 
     st.subheader("Work Underway to Upgrade High-Voltage Power System in Northwest Ohio")
 
