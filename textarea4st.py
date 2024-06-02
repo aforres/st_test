@@ -36,7 +36,7 @@ if nav == 'Home':
     st.caption("This is a caption")
 
     # Code block
-    st.markdown("## Python code embedded")
+    st.markdown("### Python code embedded")
     st.code("""import pandas as pd
     pd.read_csv(my_csv_file)
     """)
@@ -45,7 +45,7 @@ if nav == 'Home':
     st.text("Some text")
 
     # LaTeX
-    st.write("algebraic notation")
+    st.markdown("### algebraic notation")
     st.latex("x = 2^2")
 
     # Divider
